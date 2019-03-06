@@ -9,7 +9,7 @@
     "client": "cd client && npm build",
     "client1":"cd client && npm start",
     "start": "concurrently \"node app.js\" \"npm run client\"",
-    "start1": "node app.js"
+    "start1": "concurrently \"nodemon app.js\" \"npm run client1\""
   },
   "dependencies": {
     "axios": "^0.18.0",
