@@ -1,5 +1,5 @@
 {
-  "name": "ask-your-doctor",
+  "name": "pot-purse",
   "version": "0.0.0",
   "private": true,
   "author": "Donte Ojeda",
@@ -7,7 +7,7 @@
   "scripts": {
     "server": "node app.js",
     "client": "cd client && npm start",
-    "start": "concurrently \"nodemon app.js\" \"npm run client\"",
+    "start": "concurrently \"node app.js\" \"npm run client\"",
     "start1": "node app.js"
   },
   "dependencies": {
